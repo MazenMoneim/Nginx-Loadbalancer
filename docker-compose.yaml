@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+
+  flask1:
+    image: localhost:5000/iti-flask-lab2
+    networks:
+      proxy-net:
+
+
+  flask2:
+    image: localhost:5000/iti-flask-lab2
+    networks:
+      proxy-net:
+
+
+  flask3:
+    image: localhost:5000/iti-flask-lab2
+    networks:
+      proxy-net:
+
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+    networks:
+      proxy-net:
+
+
+networks:
+  proxy-net:
+    driver: bridge

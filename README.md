@@ -14,3 +14,8 @@ In our exciting journey of containerization and orchestration, we embarked on a 
   * To distribute incoming traffic across our three Flask servers, we introduced Nginx as our load balancer.
   * Nginx acted as the gateway, receiving requests from clients and intelligently forwarding them to the available Flask containers.
   * Load balancing ensured that no single server was overwhelmed, improving performance and fault tolerance.
+
+#
+
+![Copy of server](https://github.com/MazenMoneim/Nginx-Loadbalancer/assets/135109542/6785165b-f076-40ef-9db9-b5dbeb1327c5)
+

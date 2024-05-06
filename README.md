@@ -1,4 +1,4 @@
-# My First Load Balancer with Docker Containers.
+# My First Load Balancer with Docker Containers 📌
 ### Nginx Load Balancer with Three Flask Servers.
 In our exciting journey of containerization and orchestration, we embarked on a mission to deploy a Flask website using Docker Compose. Our goal was to achieve high availability, efficient resource utilization, and seamless traffic distribution. Here’s how we did it:
 ### 1- The Flask Website

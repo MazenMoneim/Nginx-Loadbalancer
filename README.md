@@ -12,7 +12,7 @@ In our exciting journey of containerization and orchestration, we embarked on a 
   * With a simple docker-compose up, our entire stack came to life.
 ### 4- Nginx Load Balancer
   * To distribute incoming traffic across our three Flask servers, we introduced Nginx as our load balancer.
-  * Nginx acted as the gateway, receiving requests from clients and intelligently forwarding them to the available Flask containers.
+  * Nginx acted as the gateway, receiving requests from clients and forwarding them to the available Flask containers.
   * Load balancing ensured that no single server was overwhelmed, improving performance and fault tolerance.
 
 #
